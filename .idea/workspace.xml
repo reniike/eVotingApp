@@ -1,14 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63e60e18-1544-4f30-b42e-a1468a4d7273" name="Changes" comment="" />
+    <list default="true" id="63e60e18-1544-4f30-b42e-a1468a4d7273" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eVotingApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eVotingApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/models/Candidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/models/Party.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Poll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/models/Poll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/models/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/AdminRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/AdminRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/CandidateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/CandidateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/CandidateRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/CandidateRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/PollRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/PollRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/PollRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/PollRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/requests/FindUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/requests/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/requests/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/requests/RegisterUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/requests/RegisterUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/requests/VoteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/requests/VoteRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/responses/FindUserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/responses/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/responses/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/responses/RegisterUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/responses/RegisterUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/responses/VoteResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dtos/responses/VoteResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/OverVotingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/OverVotingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ResultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ResultServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ResultServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/AdminRepositoryImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/CandidateRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repositories/CandidateRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/ResultRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repositories/ResultRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/UserRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repositories/UserRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/UserServiceImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -19,13 +71,114 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="exceptions" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="data.repositories" />
+      <recent name="services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserServiceImplTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="eVotingApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eVotingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.UserServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.anExceptionIsThrown_whenAnUnregisteredUserCantLogIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eVotingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="anExceptionIsThrown_whenAnUnregisteredUserCantLogIn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.testSaveNewUser_idIsNotEqualsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eVotingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testSaveNewUser_idIsNotEqualsZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.testThatUserCan_tLogInWithWrongPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eVotingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatUserCan_tLogInWithWrongPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.testSaveNewUser_idIsNotEqualsZero" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UserServiceImplTest.anExceptionIsThrown_whenAnUnregisteredUserCantLogIn" />
+        <item itemvalue="JUnit.UserServiceImplTest.testThatUserCan_tLogInWithWrongPassword" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,7 +187,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677255243367</updated>
+      <workItem from="1677255245647" duration="10915000" />
+      <workItem from="1678271638852" duration="595000" />
+      <workItem from="1678395886864" duration="13348000" />
+      <workItem from="1678476828750" duration="50856000" />
+      <workItem from="1678764149435" duration="5426000" />
+      <workItem from="1678827277840" duration="10161000" />
+      <workItem from="1679022479277" duration="8738000" />
+      <workItem from="1679125933101" duration="83751000" />
+      <workItem from="1679389289089" duration="27346000" />
+      <workItem from="1679822954768" duration="427000" />
+      <workItem from="1679906299873" duration="661000" />
+      <workItem from="1681319735995" duration="1077000" />
+      <workItem from="1681823010454" duration="2521000" />
+      <workItem from="1681856214406" duration="393000" />
+      <workItem from="1681897351583" duration="13000" />
+      <workItem from="1682162461145" duration="321000" />
+      <workItem from="1682496827014" duration="727000" />
+      <workItem from="1682594190262" duration="938000" />
+      <workItem from="1682941200449" duration="1829000" />
+      <workItem from="1682981015319" duration="28000" />
+      <workItem from="1683146882109" duration="4136000" />
+      <workItem from="1684023710181" duration="4996000" />
+      <workItem from="1684139161834" duration="1182000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

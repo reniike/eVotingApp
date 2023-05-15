@@ -1,22 +1,31 @@
 package data.models;
 
-//public class Vote {
-//    private int voteId;
-//    private String voter_sIdentificationNumber;
-//
-//    public String getVoter_sIdentificationNumber() {
-//        return voter_sIdentificationNumber;
-//    }
-//
-//    public void setVoter_sIdentificationNumber(String voter_sIdentificationNumber) {
-//        this.voter_sIdentificationNumber = voter_sIdentificationNumber;
-//    }
-//
-//    public int getVoteId() {
-//        return voteId;
-//    }
-//
-//    public void setVoteId(int voteId) {
-//        this.voteId = voteId;
-//    }
-//}
+public class Poll {
+    private int id;
+    private int voterId;
+    private String partyName;
+
+    public int getVoterId() {
+        return voterId;
+    }
+
+    public void setVoterId(int voterId) {
+        this.voterId = voterId;
+    }
+
+    public String getPartyName() {
+        return partyName;
+    }
+
+    public void setPartyName(String partyName) {
+        this.partyName = partyName;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+}

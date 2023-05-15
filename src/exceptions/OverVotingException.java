@@ -1,2 +1,7 @@
-package exceptions;public class OverVotingException {
+package exceptions;
+
+public class OverVotingException extends Exception {
+    public OverVotingException(String message) {
+        super(message);
+    }
 }
